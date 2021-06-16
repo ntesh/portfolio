@@ -11537,12 +11537,24 @@ footer a:focus {
   padding-bottom: 10px;
 }
 
+@media (max-width: 992px) {
+  #hero-header {
+    padding: 20px 10px;
+  }
+}
+
 .pos-rel {
   position: relative;
 }
 
 #highlight-section {
   padding: 100px 0;
+}
+
+@media (max-width: 992px) {
+  #highlight-section {
+    padding: 20px 10px 40px 10px;
+  }
 }
 
 #highlight-section .highlight-row {
@@ -11602,6 +11614,13 @@ footer a:focus {
   transition: all 0.2s;
 }
 
+@media (max-width: 992px) {
+  #highlight-section .highlight-box-hover {
+    position: static;
+    margin: 20px 0;
+  }
+}
+
 /* Allows for the first tab and content to always show the hovered box at load */
 #highlight-section #tabOne {
   display: none;
@@ -11624,13 +11643,13 @@ footer a:focus {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   box-shadow: inset 0px 5px 8px rgba(255, 255, 255, 1);
-  padding: 40px 30px;
+  padding: 20px 20px;
   border-radius: 50px;
-  margin: 70px 0 0 0;
+  margin: 50px 0 0 0;
   align-items: center;
   align-content: center;
   display: flex;
-  min-height: 450px;
+  min-height: 350px;
 }
 
 #highlight-section .highlight-content .inner-content {
@@ -11639,6 +11658,12 @@ footer a:focus {
   border-top: solid 2px rgba(242, 113, 33, 0.5);
   color: #fff;
   padding: 30px 30px;
+}
+
+@media (max-width: 992px) {
+  #highlight-section .highlight-content {
+    margin: 20px 0 0 0;
+  }
 }
 
 /* End of Custom CSS */
