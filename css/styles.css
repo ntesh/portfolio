@@ -11618,6 +11618,7 @@ footer a:focus {
   #highlight-section .highlight-box-hover {
     position: static;
     margin: 20px 0;
+    padding: 20px 0;
   }
 }
 
